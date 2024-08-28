@@ -21,7 +21,7 @@ namespace WhiteLagoon.Web.Controllers
             var villaNumbers = _context.VillaNumbers.Include(u => u.Villa).ToList();
             return View(villaNumbers);
         }
-
+        
         public IActionResult Create()
         {
             VillaNumberVM villaNumberVM = new()
