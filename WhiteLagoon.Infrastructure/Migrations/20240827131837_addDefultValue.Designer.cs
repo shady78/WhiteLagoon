@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using WhiteLagoon.Infrastructure.Data;
 
@@ -11,9 +12,11 @@ using WhiteLagoon.Infrastructure.Data;
 namespace WhiteLagoon.Infrastructure.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240827131837_addDefultValue")]
+    partial class addDefultValue
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -64,7 +67,7 @@ namespace WhiteLagoon.Infrastructure.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedDate = new DateTime(2024, 8, 27, 17, 35, 14, 670, DateTimeKind.Local).AddTicks(6535),
+                            CreatedDate = new DateTime(2024, 8, 27, 16, 18, 37, 129, DateTimeKind.Local).AddTicks(2017),
                             Description = "Fusce 11 tincidunt maximus leo, sed scelerisque massa auctor sit amet. Donec ex mauris, hendrerit quis nibh ac, efficitur fringilla enim.",
                             ImageUrl = "https://placehold.co/600x400",
                             Name = "Royal Villa",
@@ -75,7 +78,7 @@ namespace WhiteLagoon.Infrastructure.Migrations
                         new
                         {
                             Id = 2,
-                            CreatedDate = new DateTime(2024, 8, 27, 17, 35, 14, 670, DateTimeKind.Local).AddTicks(6583),
+                            CreatedDate = new DateTime(2024, 8, 27, 16, 18, 37, 129, DateTimeKind.Local).AddTicks(2068),
                             Description = "Fusce 11 tincidunt maximus leo, sed scelerisque massa auctor sit amet. Donec ex mauris, hendrerit quis nibh ac, efficitur fringilla enim.",
                             ImageUrl = "https://placehold.co/600x401",
                             Name = "Premium Pool Villa",
@@ -86,7 +89,7 @@ namespace WhiteLagoon.Infrastructure.Migrations
                         new
                         {
                             Id = 3,
-                            CreatedDate = new DateTime(2024, 8, 27, 17, 35, 14, 670, DateTimeKind.Local).AddTicks(6586),
+                            CreatedDate = new DateTime(2024, 8, 27, 16, 18, 37, 129, DateTimeKind.Local).AddTicks(2071),
                             Description = "Fusce 11 tincidunt maximus leo, sed scelerisque massa auctor sit amet. Donec ex mauris, hendrerit quis nibh ac, efficitur fringilla enim.",
                             ImageUrl = "https://placehold.co/600x402",
                             Name = "Luxury Pool Villa",

@@ -25,7 +25,7 @@ namespace WhiteLagoon.Domain.Entities
         public IFormFile? Image { get; set; }
         [Display(Name = "Image Url")]
         public string? ImageUrl { get; set; }
-        public DateTime? CreatedDate { get; set; }
+        public DateTime? CreatedDate { get; set; } = DateTime.Now;
         public DateTime? UpdatedDate { get; set; }
 
     }
