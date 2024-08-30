@@ -40,11 +40,7 @@ namespace WhiteLagoon.Web.Controllers
         [HttpPost]
         public IActionResult Create(AmenityVM obj)
         {
-            //ModelState.Remove("Villa");
-            bool amenityExists = _unitOfWork.Amenity.Any(u => u.Id == obj.Amenity.Id);
-            //bool isNumberUnique = _context.VillaNumbers.Where(u => u.Villa_Number == obj.Villa_Number).Count() == 0;
-
-            if (ModelState.IsValid && !amenityExists)
+            if (ModelState.IsValid)
             {
                 _unitOfWork.Amenity.Add(obj.Amenity);
                 _unitOfWork.Save();
@@ -52,10 +48,6 @@ namespace WhiteLagoon.Web.Controllers
                 return RedirectToAction(nameof(Index));
             }
 
-            if (amenityExists)
-            {
-                TempData["Error"] = "The amenity already exists.";
-            }
             obj.VillaList = _unitOfWork.Villa.GetAll().Select(u => new SelectListItem
             {
                 Text = u.Name,
