@@ -1,0 +1,149 @@
+[33mcommit 68990acbe9c77837ee84d4f6df900ec8efa756c6[m[33m ([m[1;36mHEAD -> [m[1;32mtest[m[33m)[m
+Author: shady khalifa <shadykhalifa.dotnetdev@gmail.com>
+Date:   Sat Aug 31 15:29:57 2024 +0300
+
+    * Identity Module *
+
+[33mcommit b4cbc13b4210627a5001de3924fc3b8d094d164b[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: shady khalifa <89072052+shady78@users.noreply.github.com>
+Date:   Sat Aug 31 02:48:15 2024 +0300
+
+    Update README.md
+
+[33mcommit 838560293e66e7b91779d9afa194c57b4e3df70c[m
+Merge: e2e495b 31a7765
+Author: shady khalifa <89072052+shady78@users.noreply.github.com>
+Date:   Sat Aug 31 02:37:05 2024 +0300
+
+    Merge pull request #8 from shady78/test
+    
+    ⭐️ Home Page ⭐️
+
+[33mcommit 31a776513663d9c68f88eced5c02b82d8fe6b67c[m[33m ([m[1;31morigin/test[m[33m)[m
+Author: shady khalifa <shadykhalifa.dotnetdev@gmail.com>
+Date:   Sat Aug 31 02:28:46 2024 +0300
+
+    ⭐️ Home Page ⭐️
+
+[33mcommit e2e495b33cab94815f28c34a56fd1d9df2a658d7[m
+Merge: 36f87dd 3ee8fe3
+Author: shady khalifa <89072052+shady78@users.noreply.github.com>
+Date:   Fri Aug 30 16:31:26 2024 +0300
+
+    Merge pull request #7 from shady78/test
+    
+    ⭐️  Amenity Module ⭐️
+
+[33mcommit 3ee8fe31cc9aa9e82bde4bf7b01d297786829281[m
+Author: shady khalifa <shadykhalifa.dotnetdev@gmail.com>
+Date:   Fri Aug 30 16:26:54 2024 +0300
+
+    ⭐️  Amenity Module ⭐️
+
+[33mcommit 36f87dd1143bb04227e826feb1d134df0e9efc23[m
+Merge: 66023e7 9c10533
+Author: shady khalifa <89072052+shady78@users.noreply.github.com>
+Date:   Thu Aug 29 20:43:42 2024 +0300
+
+    Merge pull request #6 from shady78/test
+    
+    ⭐️  Images and Villa ⭐️
+
+[33mcommit 9c1053367bfec0e815ea53e500be5201fba72d2f[m
+Author: shady khalifa <shadykhalifa.dotnetdev@gmail.com>
+Date:   Thu Aug 29 20:35:45 2024 +0300
+
+    ⭐️  Images and Villa ⭐️
+
+[33mcommit 66023e7193d0d265b0df3231c1918c09e58d70a9[m
+Merge: 2eb8fe8 6a9c8af
+Author: shady khalifa <89072052+shady78@users.noreply.github.com>
+Date:   Thu Aug 29 15:15:57 2024 +0300
+
+    Merge pull request #5 from shady78/test
+    
+    UnitOfWork with Villa Number
+
+[33mcommit 6a9c8afd631781872bb31068a6320a297def1435[m
+Author: shady khalifa <shadykhalifa.dotnetdev@gmail.com>
+Date:   Thu Aug 29 15:10:25 2024 +0300
+
+    UnitOfWork with Villa Number
+
+[33mcommit 2eb8fe852ec8cf68765c03d6d82b9e681995b580[m
+Merge: 9ad0dbf c45130b
+Author: shady khalifa <89072052+shady78@users.noreply.github.com>
+Date:   Thu Aug 29 03:24:29 2024 +0300
+
+    Merge pull request #4 from shady78/test
+    
+    GenericRepo and UnitOfWork Villa
+
+[33mcommit c45130b609d53bf3407facb8fc90304af63846fc[m
+Author: shady khalifa <shadykhalifa.dotnetdev@gmail.com>
+Date:   Thu Aug 29 03:24:03 2024 +0300
+
+    GenericRepo and UnitOfWork Villa
+
+[33mcommit 9ad0dbf5b2a2804380c330097c87494d794139fa[m
+Merge: 9d2d127 0fa7ffb
+Author: shady khalifa <89072052+shady78@users.noreply.github.com>
+Date:   Wed Aug 28 21:10:56 2024 +0300
+
+    Merge pull request #3 from shady78/test
+    
+    Villa Repository
+
+[33mcommit 0fa7ffb0110f2d02a3f59d7e657cf916683c760e[m
+Author: shady khalifa <shadykhalifa.dotnetdev@gmail.com>
+Date:   Wed Aug 28 21:10:01 2024 +0300
+
+    Villa Repository
+
+[33mcommit 9d2d1273179bd4b467da7011f15f1037d214a57a[m
+Merge: d279fa2 66ef9ed
+Author: shady khalifa <89072052+shady78@users.noreply.github.com>
+Date:   Wed Aug 28 04:49:15 2024 +0300
+
+    Merge pull request #2 from shady78/test
+    
+    add VillaNumber Module
+
+[33mcommit 66ef9edb703355358ebeb2a7fb1db86db912cf89[m
+Author: shady khalifa <shadykhalifa.dotnetdev@gmail.com>
+Date:   Wed Aug 28 04:47:04 2024 +0300
+
+    add VillaNumber Module
+
+[33mcommit d279fa2096e3dd0e95d92a7b2102b248b7c9b477[m
+Author: shady khalifa <89072052+shady78@users.noreply.github.com>
+Date:   Tue Aug 27 20:26:14 2024 +0300
+
+    Create README.md
+
+[33mcommit 20db1a38f7281f343e147bd1aff33e457df7bd9e[m
+Merge: 6047858 49c4738
+Author: shady khalifa <89072052+shady78@users.noreply.github.com>
+Date:   Tue Aug 27 14:00:08 2024 +0300
+
+    Merge pull request #1 from shady78/test
+    
+    Create villa model anc controller and view
+
+[33mcommit 49c4738e853894f3cbbe9b0529ddbf3e418d1545[m
+Author: shady khalifa <shadykhalifa.dotnetdev@gmail.com>
+Date:   Tue Aug 27 13:39:37 2024 +0300
+
+    Create villa model anc controller and view
+
+[33mcommit 60478581a590a46e30bc43275de706b81edbebe3[m[33m ([m[1;32mmaster[m[33m)[m
+Author: shady khalifa <shadykhalifa.dotnetdev@gmail.com>
+Date:   Sun Aug 18 12:44:20 2024 +0300
+
+    Add project files.
+
+[33mcommit 332850c123c53622d83319bf19e134da97548335[m
+Author: shady khalifa <shadykhalifa.dotnetdev@gmail.com>
+Date:   Sun Aug 18 12:44:14 2024 +0300
+
+    Add .gitattributes and .gitignore.
