@@ -2,7 +2,8 @@
 
 ## Project Overview
 
-This project is an MVC application built using .NET 8, following the Clean Architecture principles. The application focuses on managing Villas, including CRUD operations, data validation, and UI enhancements.
+This project is an MVC application built using .NET 8, following the Clean Architecture principles. White Lagoon Website is filled with advanced concepts where customers can view the villa rooms in resort and making bookings with their credit cards. Admin can then view the bookings, check in/checkout the customer, and view the summary on their dashboard while managing all the villa via CMS that we will build for admin users.
+
 ![1](https://github.com/user-attachments/assets/bda3d423-1bbb-4fa9-931f-26d93c21ea79)
 ![2](https://github.com/user-attachments/assets/0b2481ae-8c21-4df9-bca1-6b876db84d69)
 ![3](https://github.com/user-attachments/assets/66593108-6aa0-42f4-b126-0f84b3d5b2dc)
@@ -15,34 +16,29 @@ This project is an MVC application built using .NET 8, following the Clean Archi
 
 ## Key Topics Covered
 
-1. **Clean Architecture**:
-   - Structured the project with Clean Architecture to separate concerns and make the application more maintainable.
+1. **Identity Security in ASP.NET Core using MVC**
+   
+2. **Building Applications using ASP.NET Core with MVC**
+   
+3. **Repository Pattern**
+   
+4. **Clean Architecture**
+   
+5. **Integrating Identity Framework and Extending User Fields**
+   
+6. **Integrating Entity Framework with Code-First Migrations**
 
-2. **Dependency Injection**:
-   - Implemented DI for better management of dependencies, especially within the controller and repository layers.
+8. **Authentication and Authorization in ASP.NET Core**
 
-3. **Entity Framework Core**:
-   - Used EF Core for database operations, including creating models, DbContext, and handling migrations.
-   - Seeded initial data into the database to get started quickly.
+9. **Accepting Payments using Stripe**
 
-4. **MVC Architecture**:
-   - Followed the MVC pattern to separate the application logic, UI, and data.
-   - Implemented routing to manage how requests are handled within the application.
+10. **Admin Dashboard**
 
-5. **CRUD Operations**:
-   - Developed complete CRUD operations for managing Villas, including validation on both server and client sides.
-   - Added UI elements for editing and deleting records.
+11. **Charts in .NET Core**
 
-6. **Repository Pattern**:
-   - Used the Repository pattern to abstract data access logic, making it easier to test and manage.
-   - Implemented a UnitOfWork pattern to handle multiple repositories efficiently.
+12. **Building Dynamic PDF, PPT, and Word Documents in .NET Core**
 
-7. **Image Handling**:
-   - Integrated functionality for uploading, displaying, and managing images related to Villas.
-
-8. **UI Enhancements**:
-   - Applied Bootstrap for responsive and visually appealing UI.
-   - Added notifications and validation messages for better user experience.
+13. **Data Seeding and Deployment to MyWindowsHosting**
 
 ## How to Run the Project
 
