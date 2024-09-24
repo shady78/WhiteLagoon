@@ -16,7 +16,5 @@ namespace WhiteLagoon.Infrastructure.Repository
         {
             _context = context;
         }
-
-
     }
 }
