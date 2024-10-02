@@ -7,6 +7,7 @@ using WhiteLagoon.Domain.Entities;
 
 namespace WhiteLagoon.Application.Common.Utility
 {
+    // SD => Static Details
     public class SD
     {
         public const string Role_Customer = "Customer";
@@ -18,6 +19,7 @@ namespace WhiteLagoon.Application.Common.Utility
         public const string StatusCompleted = "Completed";
         public const string StatusCancelled = "Cancelled";
         public const string StatusRefunded = "Refunded";
+
 
         public static int VillaRoomsAvailable_Count(int villaId,
          List<VillaNumber> villaNumberList, DateOnly checkInDate, int nights,
