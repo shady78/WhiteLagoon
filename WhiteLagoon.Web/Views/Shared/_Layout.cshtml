@@ -23,7 +23,7 @@
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
-                        
+
                         @if (User.IsInRole(SD.Role_Admin))
                         {
                             <li class="nav-item dropdown">
@@ -54,7 +54,7 @@
                             </li>
                         }
 
-                    
+
                     </ul>
                     <partial name="_LoginPartial">
                 </div>
@@ -74,7 +74,7 @@
             Made with <i class="bi bi-heart-fill"></i> by Shady Kh
         </div>
     </footer>
-     @*jquery-ajax-unobtrusive@3.2.6 *@
+    @*jquery-ajax-unobtrusive@3.2.6 *@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js" integrity="sha512-7Pi/otdlbbCR+LnW+F7PwFcSDJOuUJB3OxtEHbg4vSMvzvJjde4Po1v4BR9Gdc9aXNUNFVUY+SK51wWT8WF0Gg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
