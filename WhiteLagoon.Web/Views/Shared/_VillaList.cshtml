@@ -1,12 +1,12 @@
 ﻿@model HomeVM
-<div id="VillasList">
+<div id="VillasList" style="margin-bottom:100px;">
     <div class="row px-lg-5 m-lg-4 m-sm-0 px-sm-0" style="--bs-gutter-x:0">
 
         @foreach (var villa in Model.VillaList)
         {
 
             <div class="p-4 col-md-12 col-lg-6">
-                <div class="row" style="border-radius:5px; border: 1px solid #aaa">
+                <div class="row" style="border-radius:5px; border: 1px solid #aaa; padding:10px;">
                     <div class="col-4 p-2">
                         <img class="d-block w-100" style="border-radius:5px;" src="@villa.ImageUrl">
                     </div>
