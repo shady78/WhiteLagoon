@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html lang="en" data-bs-theme="dark">
+<html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,10 +11,20 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.css" integrity="sha512-3pIirOrwegjM6erE5gPSwkUzO+3cTjpnV9lexlNZqvupR64iZBnOOTiiLPb9M36zpMScbmUNIcHUqKD47M719g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="~/css/spinner.css" />
     <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css">
+
+
+   
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="~/css/fontawesome.css">
+    <link rel="stylesheet" href="~/css/templatemo-villa-agency.css">
+    <link rel="stylesheet" href="~/css/owl.css">
+    <link rel="stylesheet" href="~/css/animate.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
 </head>
-<body>
+<body style="padding-top:70px;">
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light  border-bottom box-shadow ">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light  border-bottom box-shadow fixed-top">
             <div class="container-fluid">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"><img src="~/images/resort.png" style="width:35px;" /></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
@@ -52,6 +62,16 @@
                             <li class="nav-item">
                                 <a class="nav-link" asp-controller="Booking" asp-action="Index">Manage Bookings</a>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#ContactUs">
+                                    Contact Us
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#BookingVilla">
+                                    Booking Villa
+                                </a>
+                            </li>
                         }
 
 
@@ -69,7 +89,7 @@
         </main>
     </div>
 
-    <footer class="border-top footer bg-dark text-muted">
+    <footer class="border-top footer bg-dark text-white">
         <div class="container text-center">
             Made with <i class="bi bi-heart-fill"></i> by Shady Kh
         </div>
@@ -80,6 +100,14 @@
     <script src="~/js/site.js" asp-append-version="true"></script>
     <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
     @* <script src="~/js/jquery.unobtrusive-ajax.min.js"></script> *@
+
+    <!-- Scripts -->
+    <!-- Bootstrap core JavaScript -->
+    <script src="assets/js/isotope.min.js"></script>
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/counter.js"></script>
+    <script src="assets/js/custom.js"></script>
+
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
