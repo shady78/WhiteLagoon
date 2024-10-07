@@ -34,9 +34,9 @@ This project is an MVC application built using .NET 8, following the Clean Archi
 
 10. **Admin Dashboard**
 
-11. **Charts in .NET Core**
+11. **Charts in .NET Core (ApexChart)**
 
-12. **Building Dynamic PDF, PPT, and Word Documents in .NET Core**
+12. **Building Dynamic PDF, PPT, and Word Documents in .NET Core (Syncfusion)**
 
 13. **Data Seeding and Deployment to MyWindowsHosting**
 
