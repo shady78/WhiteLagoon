@@ -21,11 +21,11 @@ namespace WhiteLagoon.Infrastructure.Data
         public DbInitializer(
             UserManager<ApplicationUser> userManager,
             RoleManager<IdentityRole> roleManager,
-            ApplicationDbContext db)
+            ApplicationDbContext context)
         {
             _roleManager = roleManager;
             _userManager = userManager;
-            _context = db;
+            _context = context;
         }
 
         public void Initialize()
@@ -45,10 +45,10 @@ namespace WhiteLagoon.Infrastructure.Data
                     {
                         UserName = "admin@dotnetmastery.com",
                         Email = "admin@dotnetmastery.com",
-                        Name = "Bhrugen Patel",
+                        Name = "Shady Khalifa",
                         NormalizedUserName = "ADMIN@DOTNETMASTERY.COM",
                         NormalizedEmail = "ADMIN@DOTNETMASTERY.COM",
-                        PhoneNumber = "1112223333",
+                        PhoneNumber = "01010101010",
                     }, "Admin123*").GetAwaiter().GetResult();
 
                     ApplicationUser user = _context.ApplicationUsers.FirstOrDefault(u => u.Email == "admin@dotnetmastery.com");
