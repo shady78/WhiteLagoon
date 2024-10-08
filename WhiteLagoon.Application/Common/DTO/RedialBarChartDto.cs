@@ -1,6 +1,6 @@
 ﻿namespace WhiteLagoon.Web.ViewModels
 {
-    public class RedialBarChartVM
+    public class RedialBarChartDto
     {
         public decimal TotalCount { get; set; }
         public decimal CountInCurrentMonth { get; set; }
